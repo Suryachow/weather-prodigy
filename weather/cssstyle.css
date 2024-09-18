@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'lucida caligraphy', cursive;
+    background-image: url("https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1https://img.freepik.com/premium-photo/clouds-blue-sky_196038-208.jpg?w=996");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.hd {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+.inputs input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inputs button {
+    width: 100%;
+    padding: 10px;
+    background: #2eb6bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.inputs button:hover {
+    background: #0056b3;
+}
+
+.display {
+    color: #333;
+}
+
+.wrapper h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.wrapper p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
